@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 473998}
+  - 114: {fileID: 11473998}
+  m_Layer: 0
+  m_Name: part_weapon_staff-a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11473998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: staff-a
+  m_type: 4
+  m_search_order: 6
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit: []
+  m_items_weapon:
+  - sprite_weapon: {fileID: 21300000, guid: 8b368009761e3184fa7944fff0414e29, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: c7b807d1db2f0d5479d8bb261632467d, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 137cb714957fcf9498f18fc732df5f99, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: cc604789c397c8d40b4a8d5f9568c211, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 41b126efe1a5def46914ba879e5c73f5, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 519942ac36995d446a35155bc2625c1c, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: cc683fe0cc3db874e8ce1d172aabb949, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4c7ce43426af722448fee086df850789, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 376f3cf8b6454ad44aa73e134cba1d63, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 25f8383a136a6384d8bc4e6db315fae1, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 415670f9b63504241969c0a3903429a6, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 05f4324e609d0e7418bb6660467cf843, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 3178c9e784a827e4ea06d2c751995ad9, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 18d54cca59f33644691c8b5233c6f5da, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 5ef21d8ac160b0d41a81ab86031ef0df, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 9ec04cd06afd2704690dbf2574b66547, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: e78542d7298ee09438c872a5aab5509f, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 5a7efeda94235e641b8681f86e4f238b, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: f09defa524a83db4983ee67f2824619f, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 144c1073112e9d84494ffe090e638e97, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: bf3c1f36a781bee478d584fab23f1ac4, type: 3}
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 173998}
+  m_IsPrefabParent: 1

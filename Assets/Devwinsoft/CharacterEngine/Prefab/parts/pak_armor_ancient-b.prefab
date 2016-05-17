@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403166}
+  - 114: {fileID: 11403166}
+  m_Layer: 0
+  m_Name: pak_armor_ancient-b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403166
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11403166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: ancient-b
+  m_type: 2
+  m_search_order: 2
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor:
+  - item_index: 0
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 7ed2a6d1f5ba6a749848876784933180, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 16c74b8343373e349a14c8acc3530bc9, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: 16c74b8343373e349a14c8acc3530bc9, type: 3}
+    sprite_body: {fileID: 21300000, guid: 0dbbdebc75e56e74da15edbdf52a566d, type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 2845edf54e9e22644bfa3c30b3858b92,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 2845edf54e9e22644bfa3c30b3858b92, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: bdba1ad469c82de42bdf2e7a88a37dc0, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: 070fb04e64fc19340889744092a346de, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  - item_index: 1
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 25047589c98bbf0479b6af209daf19a3, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 2
+    arm_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  - item_index: 2
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: d06d5eb64daa3434e9ec5cf0393dc92d, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 2
+    arm_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  m_items_unit: []
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 103166}
+  m_IsPrefabParent: 1

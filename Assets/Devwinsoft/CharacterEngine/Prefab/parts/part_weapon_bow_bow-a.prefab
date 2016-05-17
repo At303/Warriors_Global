@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &160472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460472}
+  - 114: {fileID: 11460472}
+  m_Layer: 0
+  m_Name: part_weapon_bow_bow-a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11460472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: bow-a
+  m_type: 3
+  m_search_order: 1
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit: []
+  m_items_weapon:
+  - sprite_weapon: {fileID: 21300000, guid: 12b674dff83beaa4aaf6977e7618bea2, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 39cbb86213059af4eb670f2306201c49, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: c40ee93b4e4be5746ab9f12e7cd4cddb, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 814fe98928afee64499f6abffbfe4b7e, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: d8aec4254cfb9d74093b72bea6d7448a, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 7c9659ed1173e0744b93bcf4f62466a1, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4a7f994b2253c3c4c945aa833e8a370d, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 444419726a519c04b8e8c77410c7b238, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 0446c2cf225db2f40a1d27fdcaf225cc, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: d58cc15f115a04a428ef3c7391dc409b, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 1baab59411845b346bd052a2f8319395, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 49909a7f02d595f48974d8264626a847, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: f0b020b4784332246be016c2ded18e1f, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 6e94a71fd87c13741aca7506ecc9bbd9, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 9f27eb07d073b8546b86c0e30cee4aa2, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 52d4fc4e674224e4684c5bd0ca7c86e0, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4870f85775d94bc4c9cfc56e0838a67e, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 836e895fcf10cb549b35ce9349ccffad, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4d81a6db9abd8b341a654d5b908157dd, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: a7b6205afc63d0847bf055312584b39d, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 45006caf70ff49a41b67977201017178, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 12e9a5b827f13b34f9d4605efabc86b7, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: ec1bb9b83494ca24fbdcceb5ae787453, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4da2a228dcc25f64dadcbf35472a45bf, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: da1c57a21925b754ab2b58aae2ef86f5, type: 3}
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 160472}
+  m_IsPrefabParent: 1

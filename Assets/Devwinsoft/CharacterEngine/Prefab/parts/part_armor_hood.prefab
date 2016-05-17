@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 402694}
+  - 114: {fileID: 11402694}
+  m_Layer: 0
+  m_Name: part_armor_hood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402694
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11402694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: hood-a
+  m_type: 2
+  m_search_order: 5
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 5
+  m_items_armor:
+  - item_index: 0
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: e2b2be45eda59924e9d53458a17492be, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: e54dcb842a120f74888d5b94deab56e1, type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: a9e38e0156314124db25e4beb2ddfef3, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: f5d094315cebc89408f22f19d613b026, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.47843137, g: 0.36862746, b: 0.21176471, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 0
+    color_index: 1
+    sprite_helm: {fileID: 21300000, guid: ccc5a029305c95c41b89d0a12f1bf946, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 21300000, guid: 64b1f8b9ede244f44a0589a8f9d5e798, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 0
+    color_index: 2
+    sprite_helm: {fileID: 21300000, guid: 629eaa8d10905f34abec9d360daac129, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 21300000, guid: 2a6ea5b21df30b74ca2d6d639ad1ffec, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+    glove_color: {r: 0.85490197, g: 0.85490197, b: 0.85490197, a: 1}
+  - item_index: 0
+    color_index: 3
+    sprite_helm: {fileID: 21300000, guid: fffef6c33fbdccf4ebb3047d032f90e5, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 21300000, guid: aecafe277f1b0574b80b947ff34e5a96, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.6745098, g: 0.1882353, b: 0, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 0
+    color_index: 4
+    sprite_helm: {fileID: 21300000, guid: 58e0e21746d0ba9429458baf75d17193, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 21300000, guid: bac4114b715afa0438beb52152ccc0cd, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.3647059, g: 0.21960784, b: 0.47843137, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 1
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: e109ca5adc3afb84d96deb01bd15fc25, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.47843137, g: 0.36862746, b: 0.21176471, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 1
+    color_index: 1
+    sprite_helm: {fileID: 21300000, guid: 0b7c2c6005f954a488b30c56b2419438, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 1
+    color_index: 2
+    sprite_helm: {fileID: 21300000, guid: d119eef0c0b1c5d4bbf6609a2ff1d218, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+    glove_color: {r: 0.85490197, g: 0.85490197, b: 0.85490197, a: 1}
+  - item_index: 1
+    color_index: 3
+    sprite_helm: {fileID: 21300000, guid: e5f9c5532f8b494468b7c81c4c09e976, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.6745098, g: 0.1882353, b: 0, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 1
+    color_index: 4
+    sprite_helm: {fileID: 21300000, guid: fe7bdcff7cb5b1442b91f4bb1cdddfcd, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.3647059, g: 0.21960784, b: 0.47843137, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 2
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: fefb6b70cf836b44db0cbeb2d7acbf83, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.47843137, g: 0.36862746, b: 0.21176471, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 2
+    color_index: 1
+    sprite_helm: {fileID: 21300000, guid: 6efebe6759b003244aeef0ac3c7229e3, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.99607843, g: 0.99607843, b: 0.99607843, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 2
+    color_index: 2
+    sprite_helm: {fileID: 21300000, guid: 7d0288bb7720ff548838684af56b26bf, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+    glove_color: {r: 0.85490197, g: 0.85490197, b: 0.85490197, a: 1}
+  - item_index: 2
+    color_index: 3
+    sprite_helm: {fileID: 21300000, guid: 9160ba5b0b52d2a4b904ef575383165c, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.6745098, g: 0.1882353, b: 0, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - item_index: 2
+    color_index: 4
+    sprite_helm: {fileID: 21300000, guid: e7f437bb86b5aa94c8cdae15df2b3a2c, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.3647059, g: 0.21960784, b: 0.47843137, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  m_items_unit: []
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 102694}
+  m_IsPrefabParent: 1

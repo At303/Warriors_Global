@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &135130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 435130}
+  - 114: {fileID: 11435130}
+  m_Layer: 0
+  m_Name: part_armor_steel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435130
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11435130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: steel-a
+  m_type: 2
+  m_search_order: 1
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor:
+  - item_index: 0
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: fc4fca3fadd79c44eb45121737516544, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 36c35ef1606d0cd4db3b472c83c9c2d1, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d6c2c822493de9641a567472df5693b6, type: 3}
+    sprite_body: {fileID: 21300000, guid: b5761c8b027a3ec4dba6924eb414c23b, type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: a05aa7b65e7c78e468b0bdc6771b54f9, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: fb4339d67f28619478d9cbde7d476eb2, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.2901961, g: 0.27450982, b: 0.27058825, a: 1}
+    glove_color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  - item_index: 1
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 21c62edd7b7ab1c488830bfd6028a1f6, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 36c35ef1606d0cd4db3b472c83c9c2d1, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d6c2c822493de9641a567472df5693b6, type: 3}
+    sprite_body: {fileID: 21300000, guid: b5761c8b027a3ec4dba6924eb414c23b, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: a05aa7b65e7c78e468b0bdc6771b54f9, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: fb4339d67f28619478d9cbde7d476eb2, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.2901961, g: 0.27450982, b: 0.27058825, a: 1}
+    glove_color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  - item_index: 2
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 06d3905f7d1c60743a5c9c407af71d14, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 36c35ef1606d0cd4db3b472c83c9c2d1, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d6c2c822493de9641a567472df5693b6, type: 3}
+    sprite_body: {fileID: 21300000, guid: b5761c8b027a3ec4dba6924eb414c23b, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: a05aa7b65e7c78e468b0bdc6771b54f9, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: fb4339d67f28619478d9cbde7d476eb2, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.2901961, g: 0.27450982, b: 0.27058825, a: 1}
+    glove_color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  - item_index: 3
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 790e9f1330b30fd488a3003668852a45, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 36c35ef1606d0cd4db3b472c83c9c2d1, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d6c2c822493de9641a567472df5693b6, type: 3}
+    sprite_body: {fileID: 21300000, guid: b5761c8b027a3ec4dba6924eb414c23b, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: a05aa7b65e7c78e468b0bdc6771b54f9, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: fb4339d67f28619478d9cbde7d476eb2, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.2901961, g: 0.27450982, b: 0.27058825, a: 1}
+    glove_color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  - item_index: 4
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 3a1ee28f8064ffc4abb66be7677b7870, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: 36c35ef1606d0cd4db3b472c83c9c2d1, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d6c2c822493de9641a567472df5693b6, type: 3}
+    sprite_body: {fileID: 21300000, guid: b5761c8b027a3ec4dba6924eb414c23b, type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: a05aa7b65e7c78e468b0bdc6771b54f9, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: fb4339d67f28619478d9cbde7d476eb2, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.2901961, g: 0.27450982, b: 0.27058825, a: 1}
+    glove_color: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 1}
+  m_items_unit: []
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 135130}
+  m_IsPrefabParent: 1

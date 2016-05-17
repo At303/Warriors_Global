@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479562}
+  - 114: {fileID: 11479562}
+  m_Layer: 0
+  m_Name: part_unit_troll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479562
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11479562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: troll
+  m_type: 1
+  m_search_order: 11
+  m_eye_pos: {x: 5, y: 4}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit:
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 0e2460bec4d34414fa40bd6401bcad1c, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: 2e9d7cba7ebb7ee4f8d0f72f6659c311,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: d66ebbb9447f08843a28c4e44da7a788,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 8f603a3411cc99948b455d49e1503fb8,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: b1da4d1b39e4470429c3a62a1690187c,
+      type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: ce115b487585b8c43ac478f0ef6c7bd8, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: a8b815acd5fb7c74d9af7abcfed8c4ed, type: 3}
+    arm_color: {r: 0.5764706, g: 0.7882353, b: 0.7490196, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.5764706, g: 0.7882353, b: 0.7490196, a: 1}
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 179562}
+  m_IsPrefabParent: 1

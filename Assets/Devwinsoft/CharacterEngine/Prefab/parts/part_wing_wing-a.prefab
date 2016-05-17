@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &150246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450246}
+  - 114: {fileID: 11450246}
+  m_Layer: 0
+  m_Name: part_wing_wing-a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11450246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: wing-a
+  m_type: 8
+  m_search_order: 2
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit: []
+  m_items_weapon: []
+  m_items_wing:
+  - sprite_wing: {fileID: 21300000, guid: 402480dd8e62fde408bfef442e0e0db7, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: bf4bf33cf668bd54eb71db12b1d4aae1, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: 9cbb0c1926bad1d4d9056dffdf94a4b9, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: ba3927c2b1434df4e8cc72e6ea87192f, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: da1a8bfeada952042b2205c376cde9af, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: 8d6792f234915ac449ad34fcac67a344, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: d122dc21d3b89ac4e8c2fc439a22175f, type: 3}
+    wing_pos: {x: 5, y: 5}
+    rot_pos: {x: 0, y: 0}
+  - sprite_wing: {fileID: 21300000, guid: 9dcb04d6e56d9b945b73d981e4703e15, type: 3}
+    wing_pos: {x: 5, y: 2}
+    rot_pos: {x: 0, y: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 150246}
+  m_IsPrefabParent: 1

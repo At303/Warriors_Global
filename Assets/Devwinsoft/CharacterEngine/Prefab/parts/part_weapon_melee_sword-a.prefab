@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456548}
+  - 114: {fileID: 11456548}
+  m_Layer: 0
+  m_Name: part_weapon_melee_sword-a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456548
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11456548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: sword-a
+  m_type: 5
+  m_search_order: 5
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit: []
+  m_items_weapon:
+  - sprite_weapon: {fileID: 21300000, guid: 4b5a11d05be65f641a0b9113ad1a3579, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 39f1cc1cca0032a4788d9c05891e31a1, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 09b00b0c26d1e0043a8c8ce731776cea, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: df2fbf1f5e96edf48bba861b7cc743de, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 6aae9e03fec040b4092fad6b5ae0fbcd, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: c853e512d17a21a4080466e67f7b0e0e, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 2d10256428a4c9c4ea504033343f6ffd, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: f803124921059644abf8286e315e109f, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 4559ffe70057a85468e09a8458d4393a, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 49c01c4a2a8d32c468967bf4c24a56c5, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 09ee14e5a4189f74298ce600c0c06245, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: e7273df201030ec4095cbf876a9a181f, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 8e4bf07613accbb48b69197425cd5f1a, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: db6c43f4c59b7c84f9de21f54d319a07, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: d4231261bc47768468abaf1cd4440380, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 36710e9bdde7ac1448e4bb3a18d4d21d, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: fd9f8f4a3c5f14f4ebba1a2a6b8fd1f2, type: 3}
+  - sprite_weapon: {fileID: 21300000, guid: 46a585a71442af14383300e4e2cc469a, type: 3}
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 156548}
+  m_IsPrefabParent: 1

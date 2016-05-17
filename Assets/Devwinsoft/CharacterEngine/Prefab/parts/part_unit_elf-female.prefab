@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &176072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476072}
+  - 114: {fileID: 11476072}
+  m_Layer: 0
+  m_Name: part_unit_elf-female
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11476072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: elf-female
+  m_type: 1
+  m_search_order: 4
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit:
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: ea6739d7dbf984d4ba20f08fb0ee6814,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: ea6739d7dbf984d4ba20f08fb0ee6814,
+      type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: d4a526b5a40c0934c81683ffe148c162,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: d4a526b5a40c0934c81683ffe148c162,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 58561c5324abee64196ded2a3821e79f,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 58561c5324abee64196ded2a3821e79f,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: d52ded0ead48ae4428a236761d7e7d2f,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: d52ded0ead48ae4428a236761d7e7d2f,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 6a970a7e107c56841aed3343e2fb88f9,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 7c1234d5e5fe6224ea180790ace6ff2d,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: f3f86c0465521c645b5095b5db68f084,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: f3f86c0465521c645b5095b5db68f084,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 0bcca03cbdf766240ab230fa08213b28,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 0bcca03cbdf766240ab230fa08213b28,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: 872182fb9f894ad4bb9494451a178dcf, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: a66770adffcefa045b0a81459721f99b,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: a24d2e30b6e909249994b0bef94f0acf,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 5b1fcc4c3ad03df4c94d25d0fe8e826f,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 34990c02b850f4a4ea8e376dfee8f775,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 973c17b2b1f2619459461ed24d4cdcdc, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: bfdde4eef33cd524e8a4f0a2e4f6b067, type: 3}
+    arm_color: {r: 0.99607843, g: 0.9764706, b: 0.9019608, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 176072}
+  m_IsPrefabParent: 1

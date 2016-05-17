@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &183836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483836}
+  - 114: {fileID: 11483836}
+  m_Layer: 0
+  m_Name: part_unit_imp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483836
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11483836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: imp
+  m_type: 1
+  m_search_order: 14
+  m_eye_pos: {x: 0, y: 10}
+  m_color_count: 1
+  m_items_armor: []
+  m_items_unit:
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: f4b85db78ea43e8488686cac522d6635, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: f19f55f4a31deb44cbf8c4b3eb221fc7,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: 8cd8aa833a9de7647919fb22071521d5,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: fa6131a2fd3240b4ea05345bc58be412,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 978b9d786e69b27469eaef50d1d093cb,
+      type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: 550ade28d78a9f04c949fe721a8fc369, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: 94ac69b13ce424644a35b3b7a09f6570, type: 3}
+    arm_color: {r: 0.8039216, g: 0.21568628, b: 0.11764706, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.8039216, g: 0.21568628, b: 0.11764706, a: 1}
+  - sprite_arm_main: {fileID: 21300000, guid: 6f662482aaa7c07489942827087dcb9a, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: d1e89fc7fcaff984eb50285638a7a37e, type: 3}
+    sprite_body: {fileID: 21300000, guid: e6a454c1401040b40bd0c7e7b5362793, type: 3}
+    sprite_eye_damage: {fileID: 21300000, guid: f19f55f4a31deb44cbf8c4b3eb221fc7,
+      type: 3}
+    sprite_eye_normal: {fileID: 21300000, guid: 8cd8aa833a9de7647919fb22071521d5,
+      type: 3}
+    sprite_face_equiped: {fileID: 21300000, guid: 8f5dc6edbb72a884b8138641eeec9c8e,
+      type: 3}
+    sprite_face_normal: {fileID: 21300000, guid: 4279f3c98d0e58d46b1b9cf904a1e0c1,
+      type: 3}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 21300000, guid: 615ff9171f831a94a90bb7675be4730e, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: 6add2b21db9bbcb419171f911df6e1e4, type: 3}
+    arm_color: {r: 0.654902, g: 0.46666667, b: 0.7372549, a: 1}
+    eye_color: {r: 1, g: 1, b: 1, a: 1}
+    glove_color: {r: 0.654902, g: 0.46666667, b: 0.7372549, a: 1}
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 183836}
+  m_IsPrefabParent: 1

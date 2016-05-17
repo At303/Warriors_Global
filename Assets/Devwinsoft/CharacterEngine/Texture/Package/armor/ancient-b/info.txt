@@ -1,0 +1,18 @@
+{
+	"ADDON_NAME":"ancient-b",
+	"ADDON_TYPE":"ARMOR",
+	"SEARCH_ORDER":5,
+	"ITEM_OPTIONS":
+	[
+		{
+			"PROPERTY":"HIDE_FACE",
+			"INDEX":1,
+			"VALUE":1
+		},
+		{
+			"PROPERTY":"HIDE_FACE",
+			"INDEX":2,
+			"VALUE":1
+		}
+	]
+}

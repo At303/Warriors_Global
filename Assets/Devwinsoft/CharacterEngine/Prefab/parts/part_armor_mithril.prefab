@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &193984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 493984}
+  - 114: {fileID: 11493984}
+  m_Layer: 0
+  m_Name: part_armor_mithril
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493984
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11493984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c80825ad1ebda418f75023495f237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_package_name: mithril-a
+  m_type: 2
+  m_search_order: 3
+  m_eye_pos: {x: 0, y: 0}
+  m_color_count: 1
+  m_items_armor:
+  - item_index: 0
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 56f9d8a5e3e46f841939792017d61fac, type: 3}
+    sprite_arm_main: {fileID: 21300000, guid: ec70598434e265147a473468b214cd8c, type: 3}
+    sprite_arm_sub: {fileID: 21300000, guid: 4a512f63f43fb344c8ac5d41e81cf965, type: 3}
+    sprite_body: {fileID: 21300000, guid: 6891db4b40587444fbf50eb87d481d5b, type: 3}
+    sprite_glove_main: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b,
+      type: 3}
+    sprite_glove_sub: {fileID: 21300000, guid: 74ba7d0445e7e4046ba5f74b126ff91b, type: 3}
+    sprite_leg0: {fileID: 21300000, guid: 911331d654c660d44986a3d2d941df32, type: 3}
+    sprite_leg1: {fileID: 21300000, guid: 311c6a4102702704c8bc0b48a3d6b674, type: 3}
+    sprite_neck: {fileID: 0}
+    option: 2
+    arm_color: {r: 0.7921569, g: 0.81960785, b: 0.9647059, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  - item_index: 1
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: 627b787028e149b488eb5ab399dc63dd, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 0
+    arm_color: {r: 0.7921569, g: 0.81960785, b: 0.9647059, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  - item_index: 2
+    color_index: 0
+    sprite_helm: {fileID: 21300000, guid: e1af114eff5abcf43b83a7b56b35d717, type: 3}
+    sprite_arm_main: {fileID: 0}
+    sprite_arm_sub: {fileID: 0}
+    sprite_body: {fileID: 0}
+    sprite_glove_main: {fileID: 0}
+    sprite_glove_sub: {fileID: 0}
+    sprite_leg0: {fileID: 0}
+    sprite_leg1: {fileID: 0}
+    sprite_neck: {fileID: 0}
+    option: 1
+    arm_color: {r: 0.7921569, g: 0.81960785, b: 0.9647059, a: 1}
+    glove_color: {r: 1, g: 1, b: 1, a: 1}
+  m_items_unit: []
+  m_items_weapon: []
+  m_items_wing: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 193984}
+  m_IsPrefabParent: 1
